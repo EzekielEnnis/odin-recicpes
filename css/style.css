@@ -12,9 +12,13 @@ body {
     font-family: sans-serif;
     padding: 5px;
 }
+
 .recipe-link{
+    background-color: rgb(95, 193, 250);
     font-size: 30px;
-    margin: auto;
+    width: fit-content;
+    margin: 5px auto 5px auto;
+    padding: 5px;
 }
 
 a:visited, a:link{
@@ -23,7 +27,7 @@ a:visited, a:link{
     text-decoration: none;
 }
 a:hover {
-    font-weight: 900;
+    font-weight: bolder;
 }
 
 .recipe-name {
@@ -33,7 +37,11 @@ a:hover {
     font-size: 50px;
     margin: 10px 0px 0px 0px;
 }
-
+.recipe-link #img{
+    vertical-align: middle;
+    width: auto;
+    height: 100px;
+}
 #img {
     margin: auto;
     text-align: center;
